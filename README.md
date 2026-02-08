@@ -37,3 +37,19 @@ Key experimental components include:
 - Incremental feature ablation for causal robustness assessment
 - Multi-seed evaluation and statistical significance testing
 
+## Repository Structure
+
+feature-stability-demographic-shift/
+│
+├── data/
+│   ├── raw/
+│   │   └── application_train.csv
+│   └── processed/
+│
+├── notebooks/
+│   └── feature_stability.ipynb
+ 
+│
+├── README.md
+└── .gitignore
+
